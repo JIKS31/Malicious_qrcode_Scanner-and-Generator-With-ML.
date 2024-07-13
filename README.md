@@ -6,3 +6,5 @@ open folder qr_scan_1
 2.Then run the main.dart file.
 before running flask file u should change host address to current ip address of the device ,and some screen consist of t.
 go through each screen cahnge address to current ip..
+
+Still its under developing support us throughout...
