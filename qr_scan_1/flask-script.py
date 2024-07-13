@@ -104,4 +104,4 @@ def analyze():
         return jsonify({"error": "Invalid URL provided."}), 400
 
 if __name__ == "__main__":
-    app.run(host='192.168.1.7', debug=True, port=7000)
+    app.run(host='0.0.0.0', debug=True, port=7000)
