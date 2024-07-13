@@ -34,7 +34,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
     final response = await http.post(
       Uri.parse(
-          'http://192.168.1.7:7000/qr_scan_1/result.dart'), // Update with your Flask server IP
+          'http://0.0.0.0:7000/qr_scan_1/result.dart'), // Update with your Flask server IP
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
